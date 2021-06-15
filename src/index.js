@@ -24,15 +24,15 @@ import AdminLayout from "layouts/Admin.js";
 import { ThemeProvider } from "@material-ui/core";
 import theme from "./components/Theme";
 import "assets/scss/material-dashboard-pro-react.scss?v=1.10.0";
+// import "./bootstrap.min.css";
+import App from "./App";
+import { Provider } from "react-redux";
+import store from "./store";
+
 
 ReactDOM.render(
-  <ThemeProvider theme={theme} >
-  <BrowserRouter>
-    <Switch>
-      <Route path="/admin" component={AdminLayout} />
-      <Redirect from="/" to="/admin/dashboard" />
-    </Switch>
-  </BrowserRouter>
-  </ThemeProvider>,
+  <Provider store={store}>
+    <App />
+  </Provider>,
   document.getElementById("root")
 );

@@ -1,3 +1,6 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prettier/prettier */
 import {
   ORDER_CREATE_REQUEST,
   ORDER_CREATE_SUCCESS,

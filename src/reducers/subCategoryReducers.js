@@ -1,3 +1,6 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prettier/prettier */
 import {
   SUB_CATEGORY_LIST_REQUEST,
   SUB_CATEGORY_LIST_SUCCESS,

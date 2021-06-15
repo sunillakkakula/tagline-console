@@ -1,3 +1,6 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prettier/prettier */
 import {
   USER_DETAILS_FAIL,
   USER_DETAILS_REQUEST,

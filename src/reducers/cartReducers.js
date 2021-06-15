@@ -1,3 +1,6 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prettier/prettier */
 import {
   CART_ADD_ITEM,
   CART_CLEAR_ITEMS,

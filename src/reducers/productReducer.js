@@ -1,3 +1,6 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prettier/prettier */
 import {
   PRODUCT_LIST_REQUEST,
   PRODUCT_LIST_SUCCESS,

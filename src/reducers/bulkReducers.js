@@ -1,3 +1,6 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prettier/prettier */
 import {
   BULK_LIST_REQUEST,
   BULK_LIST_SUCCESS,

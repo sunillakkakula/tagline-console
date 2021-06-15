@@ -296,9 +296,9 @@ const ProductListScreen = ({ history, match }) => {
 
   return (
     <>
-      {loadingDelete && <Spinner />}
+      {/* {loadingDelete && <Spinner />} */}
       {errorDelete && <Message variant="danger">{errorDelete}</Message>}
-      {loadingCreate && <Spinner />}
+      {/* {loadingCreate && <Spinner />} */}
       {errorCreate && <Message variant="info">{errorCreate}</Message>}
       {loading ? (
         <Spinner />

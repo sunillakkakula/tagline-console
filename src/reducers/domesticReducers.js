@@ -1,3 +1,6 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-unused-vars */
+/* eslint-disable prettier/prettier */
 import {
   DOMESTIC_LIST_REQUEST,
   DOMESTIC_LIST_SUCCESS,
