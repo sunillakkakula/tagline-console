@@ -14,24 +14,25 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+/* eslint-disable react/prop-types */
+/* eslint-disable prettier/prettier */
+/* eslint-disable no-unused-vars */
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-
-import AuthLayout from "layouts/Auth.js";
-import RtlLayout from "layouts/RTL.js";
 import AdminLayout from "layouts/Admin.js";
-
+import { ThemeProvider } from "@material-ui/core";
+import theme from "./components/Theme";
 import "assets/scss/material-dashboard-pro-react.scss?v=1.10.0";
 
 ReactDOM.render(
+  <ThemeProvider theme={theme} >
   <BrowserRouter>
     <Switch>
-      <Route path="/rtl" component={RtlLayout} />
-      <Route path="/auth" component={AuthLayout} />
       <Route path="/admin" component={AdminLayout} />
       <Redirect from="/" to="/admin/dashboard" />
     </Switch>
-  </BrowserRouter>,
+  </BrowserRouter>
+  </ThemeProvider>,
   document.getElementById("root")
 );

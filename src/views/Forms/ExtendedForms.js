@@ -1,14 +1,7 @@
 import React from "react";
-// react component plugin for creating a beautiful datetime dropdown picker
-// react component plugin for creating beatiful tags on an input
-
-// @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Switch from "@material-ui/core/Switch";
-// @material-ui/icons
-
-// core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";

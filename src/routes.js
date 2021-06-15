@@ -1,6 +1,7 @@
 import Charts from "views/Charts/Charts.js";
 import Dashboard from "views/Dashboard/Dashboard.js";
 import ExtendedForms from "views/Forms/ExtendedForms.js";
+import CategoryListScreen from "components/CategoryListScreen.js";
 import ExtendedTables from "views/Tables/ExtendedTables.js";
 import ReactTables from "views/Tables/ReactTables.js";
 import ValidationForms from "views/Forms/ValidationForms.js";
@@ -23,10 +24,10 @@ var dashRoutes = [
     state: "formsCollapse",
     views: [
       {
-        path: "/categories",
+        path: "/category",
         name: "Categories",
         mini: "CT",
-        component: ExtendedForms,
+        component: CategoryListScreen,
         layout: "/admin",
       },
       {
